@@ -1,6 +1,6 @@
-# GameStarterKit
+# LiteNinja GameStarterKit
 
-GameStarterKit is a Unity3D project that provides developers with a quick start for prototyping mobile game concepts. It includes pre-made assets, scripts, and tools from the LiteNinja libraries to simplify and streamline game development.
+LiteNinja GameStarterKit (GSK) is a Unity3D project that provides developers with a quick start for prototyping mobile game concepts. It includes pre-made assets, scripts, and tools from the LiteNinja libraries to simplify and streamline game development.
 
 ## Features
 
@@ -27,7 +27,7 @@ To get started with GameStarterKit, simply download the project and open it in U
 
 ## License
 
-GameStarterKit is open source and free to use under the [MIT License](https://github.com/sponticelli/GameStarterKit/blob/main/LICENSE).
+GameStarterKit is open source and free to use under the [MIT License](https://github.com/sponticelli/LiteNinja-GameStarterKit/blob/main/LICENSE).
 
 ## Contributions
 
