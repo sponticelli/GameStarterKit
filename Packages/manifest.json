@@ -9,6 +9,7 @@
     "com.liteninja.di": "https://github.com/sponticelli/LiteNinja-DI.git",
     "com.liteninja.pooling": "https://github.com/sponticelli/LiteNinja-Pooling.git",
     "com.liteninja.soa": "https://github.com/sponticelli/LiteNinja-SOA.git",
+    "com.unity.addressables": "1.19.19",
     "com.unity.collab-proxy": "1.17.7",
     "com.unity.feature.2d": "1.0.0",
     "com.unity.ide.rider": "3.0.16",
