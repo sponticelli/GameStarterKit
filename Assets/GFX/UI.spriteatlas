@@ -42,6 +42,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 36e4c591976cf433fa17afa6e23694aa, type: 3}
   - {fileID: 21300000, guid: 4b9573b186c3042de9e0132588ea2d76, type: 3}
   - {fileID: 21300000, guid: c1c2d2c1752264b64b2e0d2504fa1d73, type: 3}
+  - {fileID: 21300000, guid: 9bf8a4d119e1e4c60a4ca7752000c4d5, type: 3}
   - {fileID: 21300000, guid: 830fdef1c21744f23994b9f538d25013, type: 3}
   - {fileID: 21300000, guid: 4d733502036a34658b026d3d99fc7cf4, type: 3}
   - {fileID: 21300000, guid: c67b4502043b94c2fb36811ec203d7a4, type: 3}
@@ -51,23 +52,29 @@ SpriteAtlas:
   - {fileID: 21300000, guid: dcd601331b15f4c20bd76fca415fafda, type: 3}
   - {fileID: 21300000, guid: ad3e8433e11cf458f997ba1afe914e0a, type: 3}
   - {fileID: 21300000, guid: 6b928b333948540c1b4fe594b3845ca6, type: 3}
+  - {fileID: 21300000, guid: e7d8a7d3458e043609d764074e631616, type: 3}
   - {fileID: 21300000, guid: f539a0b4a860f4a68a6c2460fc05794c, type: 3}
   - {fileID: 21300000, guid: 1cc5f8e40769b4674b53504b1dbaf9bf, type: 3}
+  - {fileID: 21300000, guid: 14f125051809b48d99310abc1c16d1b7, type: 3}
+  - {fileID: 21300000, guid: 2c9073e5f399b4694b68f6a856aa8be7, type: 3}
   - {fileID: 21300000, guid: 733cf5566d6ee48caa44983d9da8abd7, type: 3}
   - {fileID: 21300000, guid: d3a17e86c85ae4e6992f7c0b8b41433b, type: 3}
   - {fileID: 21300000, guid: 067775377f2df41b5ba8bae1d524959e, type: 3}
   - {fileID: 21300000, guid: da8f83471c0fd47588149899a502d06e, type: 3}
+  - {fileID: 21300000, guid: 8c9af8573386a4ce19faebf595579c73, type: 3}
   - {fileID: 21300000, guid: ae8ffa67dfae94871a9bf07b7de79033, type: 3}
   - {fileID: 21300000, guid: 44b3b297552054ff4b50a2315d76d922, type: 3}
   - {fileID: 21300000, guid: e7696fa7285c7411db8e0bd448cd258a, type: 3}
   - {fileID: 21300000, guid: 797e31c7e94094d199e34163b00ac098, type: 3}
+  - {fileID: 21300000, guid: b8deebc716a874d28bd5b63da41f6640, type: 3}
   - {fileID: 21300000, guid: 785a72086e1e040b9955145c12cf6681, type: 3}
   - {fileID: 21300000, guid: 88d48b08a0b934b7db3d0cf8ad673b90, type: 3}
   - {fileID: 21300000, guid: 3f4e20480b8854766b0c7f9bcbff3656, type: 3}
   - {fileID: 21300000, guid: 6a56d0097c1d9469fa324429cc139619, type: 3}
-  - {fileID: 21300000, guid: 82d0349a5454141d581e98dd02f22bbb, type: 3}
+  - {fileID: 21300000, guid: 2129a4e946b414270be627bdcc9d8492, type: 3}
   - {fileID: 21300000, guid: 773450aa9eabd457eb8893fe3bff786d, type: 3}
   - {fileID: 21300000, guid: 7c3939babb48d4272af79a012acd469b, type: 3}
+  - {fileID: 21300000, guid: 3c1cb3da980714794a04f3f224aaff23, type: 3}
   - {fileID: 21300000, guid: aaedb9da5f3ce42fbb52eb5f2def4b3a, type: 3}
   - {fileID: 21300000, guid: 44909ceae30474bb88ca18656509940f, type: 3}
   - {fileID: 21300000, guid: 5689cafad3919469a914e258aa2f2d5d, type: 3}
@@ -78,16 +85,21 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2538a44cf639a41e0b7683ff790dd620, type: 3}
   - {fileID: 21300000, guid: b6b4cb5c6a5e84289884bf4121e1d21f, type: 3}
   - {fileID: 21300000, guid: cfea3ccc2afa0408a832b7eca9098dbe, type: 3}
+  - {fileID: 21300000, guid: 3a5a8c5dc614d4a1fa4c4840daf78d6d, type: 3}
+  - {fileID: 21300000, guid: ed826cfd0135d4bfdb6eaa77b2cf5fd0, type: 3}
   - {fileID: 21300000, guid: b8da2cce40b0b4785a5ddd304b4a4a2f, type: 3}
   - {fileID: 21300000, guid: e96555dee52fb44c79d06fcf589672b4, type: 3}
   - {fileID: 21300000, guid: 601b172fac0e046db92ca9f2bfe24f72, type: 3}
   - {fileID: 21300000, guid: ca409b6f0a9ce4fa4ba7bdcf6603c919, type: 3}
+  - {fileID: 21300000, guid: e546157f48b59477ab82b49783819f75, type: 3}
   - {fileID: 21300000, guid: 55c5cfbf4f10b4791812ff0655d7307c, type: 3}
+  - {fileID: 21300000, guid: 1a70b5efe945d4bb0902428a1e07cb41, type: 3}
   m_PackedSpriteNamesToIndex:
   - Square_DarkBlue_Button
   - Square_Inner_Gray_Button
   - Purple_Button
   - Big_Yellow_Button
+  - diagonal_lines
   - Big_Azure_Button
   - Small_Button
   - Square_Inner_LightBlue_Button
@@ -97,23 +109,29 @@ SpriteAtlas:
   - Big_Gray_Button
   - Big_Green_Button
   - Hexagonal_DarkRed
+  - arrow
   - White_Button
   - XS_Button
+  - texture
+  - dots
   - Big_DarkGray_Button
   - White_Bottom_Chevron
   - ProgressBar_Backgound
   - White_Right_Chevron
+  - circuit
   - ProgressBar_Shadowed_Backgound
   - Azure_Button
   - Big_Purple_Button
   - ProgressBar_Green_Bar
+  - Background_01
   - Orange_Button
   - ProgressBar_White_Bar
   - Big_Red_Button
   - Big_Blue_Button
-  - black_hexagons
+  - sfondo
   - White_Left_Chevron
   - Red_Button
+  - diamonds
   - Hexagonal_DarkBlue
   - ProgressBar_Yellow_Bar
   - ProgressBar_Azure_Bar
@@ -124,11 +142,15 @@ SpriteAtlas:
   - White_Ribbon
   - BlueNavy_Overlay
   - Hexagonal_White
-  - white_hexagons
+  - clouds
+  - greek
+  - hexagons
   - Green_Ribbon
   - Blue_Button
   - Green_Button
+  - graph_paper_lines
   - Yellow_Button
+  - checkers
   m_RenderDataMap: {}
   m_Tag: UI
   m_IsVariant: 0
