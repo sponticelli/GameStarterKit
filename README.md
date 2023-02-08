@@ -18,12 +18,29 @@ LiteNinja GameStarterKit (GSK) is a Unity3D project that provides developers wit
 
 ## Getting Started
 
-To get started with GameStarterKit, simply download the project and open it in Unity3D. You can then begin experimenting with the pre-made assets and tools, and start building your game concept.
+To get started with GSK, simply download the project and open it in Unity3D. You can then begin experimenting with the pre-made assets and tools, and start building your game concept.
+
+### Scenes
+GSK has 4 pre-configured scenes:
+- Bootstrap: the splash screen. In the build flow, it loads the Systems scene and then open the Home scene
+- Systems: it contains the systems used in all the other scenes such as the AudioSystem or the PoolingSystem. All the scenes contain a prefab (LoadSystems) that load the Systems scene, so you can edit and test every scene without starting from Bootstrap
+- Home: A simple scene that allows to launch the Game scene and the settings popup
+- Game: this is your job!
+
+
+### Systems
+TODO explain LoadSystems prefab and the game event 
+TODO for each system
+
+
+### Sample Game
+TODO Link to a sample game
 
 ## Requirements
 
 - Unity3D 2021.3+
 - LiteNinja libraries (included in the project)
+- [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676  )
 
 ## License
 
