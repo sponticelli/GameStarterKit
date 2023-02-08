@@ -65,6 +65,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 88d48b08a0b934b7db3d0cf8ad673b90, type: 3}
   - {fileID: 21300000, guid: 3f4e20480b8854766b0c7f9bcbff3656, type: 3}
   - {fileID: 21300000, guid: 6a56d0097c1d9469fa324429cc139619, type: 3}
+  - {fileID: 21300000, guid: 82d0349a5454141d581e98dd02f22bbb, type: 3}
   - {fileID: 21300000, guid: 773450aa9eabd457eb8893fe3bff786d, type: 3}
   - {fileID: 21300000, guid: 7c3939babb48d4272af79a012acd469b, type: 3}
   - {fileID: 21300000, guid: aaedb9da5f3ce42fbb52eb5f2def4b3a, type: 3}
@@ -77,6 +78,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2538a44cf639a41e0b7683ff790dd620, type: 3}
   - {fileID: 21300000, guid: b6b4cb5c6a5e84289884bf4121e1d21f, type: 3}
   - {fileID: 21300000, guid: cfea3ccc2afa0408a832b7eca9098dbe, type: 3}
+  - {fileID: 21300000, guid: b8da2cce40b0b4785a5ddd304b4a4a2f, type: 3}
   - {fileID: 21300000, guid: e96555dee52fb44c79d06fcf589672b4, type: 3}
   - {fileID: 21300000, guid: 601b172fac0e046db92ca9f2bfe24f72, type: 3}
   - {fileID: 21300000, guid: ca409b6f0a9ce4fa4ba7bdcf6603c919, type: 3}
@@ -109,6 +111,7 @@ SpriteAtlas:
   - ProgressBar_White_Bar
   - Big_Red_Button
   - Big_Blue_Button
+  - black_hexagons
   - White_Left_Chevron
   - Red_Button
   - Hexagonal_DarkBlue
@@ -121,6 +124,7 @@ SpriteAtlas:
   - White_Ribbon
   - BlueNavy_Overlay
   - Hexagonal_White
+  - white_hexagons
   - Green_Ribbon
   - Blue_Button
   - Green_Button
