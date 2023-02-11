@@ -9,6 +9,10 @@ namespace LiteNinja.GSK.UI
 {
   public class PageScroller : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
   {
+    public delegate void DragEventHandler(PointerEventData eventData);
+    public delegate void PageChangedEventHandler(int index);
+
+    
     [SerializeField] private CanvasGroup _canvasGroup;
     [SerializeField] private APage[] _pages;
     [SerializeField] private int _startPageIndex;
@@ -18,6 +22,13 @@ namespace LiteNinja.GSK.UI
     [SerializeField] private float _dragFactor = 0.5f; 
     // Determine if the page will move to the next page when the drag ends
     [SerializeField] private float _dragThreshold = 10f;
+    
+
+    public event DragEventHandler OnBeginDragEvent;
+    public event DragEventHandler OnDragEvent;
+    public event DragEventHandler OnEndDragEvent;
+    public event PageChangedEventHandler OnPageChangedEvent;
+
  
     private RectTransform[] _pageRects;
     private int _currentPageIndex;
@@ -26,6 +37,11 @@ namespace LiteNinja.GSK.UI
     private void Awake()
     {
       Init();
+    }
+    
+    private void Start()
+    {
+      ScrollToPage(_startPageIndex);
     }
 
     /// <summary>
@@ -38,7 +54,6 @@ namespace LiteNinja.GSK.UI
       {
         _pageRects[i] = _pages[i].rectTransform();
       }
-      ScrollToPage(_startPageIndex);
     }
 
     /// <summary>
@@ -58,6 +73,8 @@ namespace LiteNinja.GSK.UI
         targetPosition.x += _dragDelta;
         item.localPosition = targetPosition;
       }
+      
+      OnDragEvent?.Invoke(eventData);
     }
     
     /// <summary>
@@ -66,7 +83,8 @@ namespace LiteNinja.GSK.UI
     /// <param name="eventData">Pointer event data</param>
     public void OnBeginDrag(PointerEventData eventData)
     {
-      
+      _pages[_currentPageIndex].SetActive(false);
+      OnBeginDragEvent?.Invoke(eventData);
     }
 
     /// <summary>
@@ -82,6 +100,7 @@ namespace LiteNinja.GSK.UI
       var targetPageIndex = _dragDelta > 0 ? _currentPageIndex  - 1 : _currentPageIndex + 1;
       if (Mathf.Abs(_dragDelta) < _dragThreshold) targetPageIndex = _currentPageIndex;
       ScrollToPage(targetPageIndex);
+      OnEndDragEvent?.Invoke(eventData);
     }
 
     /// <summary>
@@ -94,6 +113,7 @@ namespace LiteNinja.GSK.UI
       {
         return;
       }
+      _pages[_currentPageIndex].SetActive(false);
       _currentPageIndex = index;
       var distance = _pageRects[index].localPosition.x;
       if (distance == 0) return;
@@ -109,7 +129,9 @@ namespace LiteNinja.GSK.UI
           .SetOptions(AxisConstraint.X);
       }
       _canvasGroup.interactable = true;
+      _pages[_currentPageIndex].SetActive(true);
       
+      OnPageChangedEvent?.Invoke(_currentPageIndex);
     }
   }
 }

@@ -98,6 +98,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: e546157f48b59477ab82b49783819f75, type: 3}
   - {fileID: 21300000, guid: 55c5cfbf4f10b4791812ff0655d7307c, type: 3}
   - {fileID: 21300000, guid: 1a70b5efe945d4bb0902428a1e07cb41, type: 3}
+  - {fileID: 21300000, guid: 577d56ef158264d6b9a5492c90df8c65, type: 3}
   m_PackedSpriteNamesToIndex:
   - Square_DarkBlue_Button
   - Screenshot_2023-02-09-23-32-09-043_com.supercell.clashroyale
@@ -159,6 +160,7 @@ SpriteAtlas:
   - graph_paper_lines
   - Yellow_Button
   - checkers
+  - MainManu_Button
   m_RenderDataMap: {}
   m_Tag: UI
   m_IsVariant: 0
