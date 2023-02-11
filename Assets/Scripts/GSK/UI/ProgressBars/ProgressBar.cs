@@ -2,9 +2,12 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace LiteNinja.GSK.Actions
+namespace LiteNinja.GSK.UI
 {
-  public class ProgressBar : MonoBehaviour, IProgressBar
+  /// <summary>
+  /// 
+  /// </summary>
+  public class FillProgressBar : MonoBehaviour, IProgressBar
   {
     [Header("Value")] 
     [SerializeField] private float _value;

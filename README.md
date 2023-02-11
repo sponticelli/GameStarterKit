@@ -48,4 +48,10 @@ GameStarterKit is open source and free to use under the [MIT License](https://gi
 
 ## Contributions
 
-Contributions are always welcome! If you'd like to contribute to GameStarterKit, please open a pull request with your changes.
+Contributions are always welcome! If you'd like to contribute to GSK, please open a pull request with your changes.
+
+## Credits
+
+### Fonts
+- Bungee by [David Jonathan Ross](https://fonts.google.com/specimen/Bungee)
+- Roboto Flex by [Font Bureau](https://fonts.google.com/specimen/Roboto+Flex?query=robot)

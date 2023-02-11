@@ -1,4 +1,4 @@
-namespace LiteNinja.GSK.Actions
+namespace LiteNinja.GSK.UI
 {
   /// <summary>
   /// Interface for a progress bar.
